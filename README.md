@@ -12,7 +12,7 @@ Requires installing the Firefox geckodriver and updating its directory in scrape
 
 If you have less than 8 cores update line 15 in earningSurprise.py.
 
-replace "with mp.Pool(processes=8) as pool:" with "with mp.Pool(processes=<number of cores>) as pool:"
+replace "with mp.Pool(processes=8) as pool:" with "with mp.Pool(processes = number of cores) as pool:"
 
 You can check how many cores you have with the nproc command
 
