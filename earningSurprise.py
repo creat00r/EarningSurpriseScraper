@@ -24,7 +24,7 @@ if __name__ == '__main__':
                     print(var)
 
 
-        with open('racks.csv', 'a') as csvfile:
+        with open('info.csv', 'a') as csvfile:
             fieldnames = ['Symbol', 'q1', 'q2', 'q3', 'q4', 'av', 'var', 'si']#last 4 quarter surprises, their average, variance, and the sustainability index
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
